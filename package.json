@@ -1,0 +1,20 @@
+{
+  "name": "ggbot",
+  "version": "1.0.0",
+  "description": "GGBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "stop": "nodemon"
+  },
+  "keywords": [
+    "Bot",
+    "GGBot"
+  ],
+  "author": "Jens",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
