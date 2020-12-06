@@ -7,7 +7,7 @@ client.login(process.env.token);
 client.on("ready", async () => { 
 
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity("GGBot | +help", {type: "LISTENING"});
+    client.user.setActivity(" +help", {type: "LISTENING"});
 
 }); 
 
@@ -28,7 +28,7 @@ client.on("message", async message =>{
         var botEmbet = new discord.MessageEmbed()
             .setTitle("This is the help menu!")
             .setDescription("``")
-            .setColor("003cff")
+            .setColor("ff0000")
             .addFields(
                 {name:"Commands:", value:"#COMMING SOON"},
             )
